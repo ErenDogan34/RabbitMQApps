@@ -185,6 +185,7 @@ namespace DenemeRabbitMQ.subscriber
 
                 channel.BasicAck(e.DeliveryTag, false);
             };
+
             Console.ReadLine();
         }
     }
