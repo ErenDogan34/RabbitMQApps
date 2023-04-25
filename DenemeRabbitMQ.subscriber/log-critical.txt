@@ -1,0 +1,21 @@
+log-typeCritical
+log-typeCritical
+log-typeCritical
+log-typeCritical
+log-typeCritical
+log-typeCritical
+log-typeCritical
+log-typeCritical
+log-typeInfo-Error-Info
+log-typeCritical-Error-Info
+log-typeInfo-Error-Critical
+log-typeCritical-Error-Error
+log-typeInfo-Error-Warning
+log-typeCritical-Error-Critical
+log-typeWarning-Error-Warning
+log-typeCritical-Error-Error
+log-typeCritical-Error-Info
+log-typeCritical-Error-Error
+log-typeInfo-Error-Info
+log-typeInfo-Error-Error
+Header mesajım
