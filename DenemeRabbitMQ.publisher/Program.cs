@@ -1,8 +1,10 @@
 ﻿using RabbitMQ.Client;
+using Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 
 namespace DenemeRabbitMQ.publisher
 {
@@ -153,8 +155,10 @@ namespace DenemeRabbitMQ.publisher
             properties.Headers=headers;
             //kalici hale getirir.
             properties.Persistent = true;
-            var mesaj = Encoding.UTF8.GetBytes("Header mesajım");
-            channel.BasicPublish("header-exchange",string.Empty,properties,mesaj);
+            var product = new Product { Id = 1, Name = "Kalem", Price = 100, Stock = 1 };
+            var productjsonstring=JsonSerializer.Serialize(product);
+          
+            channel.BasicPublish("header-exchange",string.Empty,properties, Encoding.UTF8.GetBytes(productjsonstring));
             Console.WriteLine("Header olustu");
             Console.ReadLine();
 

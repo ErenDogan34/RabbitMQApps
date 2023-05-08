@@ -19,3 +19,4 @@ log-typeCritical-Error-Error
 log-typeInfo-Error-Info
 log-typeInfo-Error-Error
 Header mesajım
+{"Id":1,"Name":"Kalem","Price":100,"Stock":1}
