@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DenemeRabbitMQ.publisher": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51673;http://localhost:51674"
+    }
+  }
+}

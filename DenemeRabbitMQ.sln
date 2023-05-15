@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenemeRabbitMQ.publisher", "DenemeRabbitMQ.publisher\DenemeRabbitMQ.publisher.csproj", "{54E37049-2973-4129-8B09-C2A15B451083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DenemeRabbitMQ.publisher", "DenemeRabbitMQ.publisher\DenemeRabbitMQ.publisher.csproj", "{54E37049-2973-4129-8B09-C2A15B451083}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DenemeRabbitMQ.subscriber", "DenemeRabbitMQ.subscriber\DenemeRabbitMQ.subscriber.csproj", "{7D75B818-F658-4284-8368-731572094A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{293C863E-1858-4390-AC6C-18D19289719A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.Watermark", "RabbitMQWeb.Watermark\RabbitMQWeb.Watermark.csproj", "{E0800D99-7393-4257-8EF4-197B1114CE24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQWeb.Watermark", "RabbitMQWeb.Watermark\RabbitMQWeb.Watermark.csproj", "{E0800D99-7393-4257-8EF4-197B1114CE24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.ExcelCreate", "RabbitMQWeb.ExcelCreate\RabbitMQWeb.ExcelCreate.csproj", "{884B826F-F272-4009-BFF5-F292F3971EA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{5BFD0BDC-0970-4119-B6E7-5833CAE884EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{6CE5A604-B6FA-418E-BED9-0C500B17FA2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +29,22 @@ Global
 		{7D75B818-F658-4284-8368-731572094A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D75B818-F658-4284-8368-731572094A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D75B818-F658-4284-8368-731572094A62}.Release|Any CPU.Build.0 = Release|Any CPU
-		{293C863E-1858-4390-AC6C-18D19289719A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{293C863E-1858-4390-AC6C-18D19289719A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{293C863E-1858-4390-AC6C-18D19289719A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{293C863E-1858-4390-AC6C-18D19289719A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0800D99-7393-4257-8EF4-197B1114CE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0800D99-7393-4257-8EF4-197B1114CE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0800D99-7393-4257-8EF4-197B1114CE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0800D99-7393-4257-8EF4-197B1114CE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884B826F-F272-4009-BFF5-F292F3971EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884B826F-F272-4009-BFF5-F292F3971EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884B826F-F272-4009-BFF5-F292F3971EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884B826F-F272-4009-BFF5-F292F3971EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFD0BDC-0970-4119-B6E7-5833CAE884EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFD0BDC-0970-4119-B6E7-5833CAE884EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFD0BDC-0970-4119-B6E7-5833CAE884EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFD0BDC-0970-4119-B6E7-5833CAE884EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE5A604-B6FA-418E-BED9-0C500B17FA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE5A604-B6FA-418E-BED9-0C500B17FA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE5A604-B6FA-418E-BED9-0C500B17FA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE5A604-B6FA-418E-BED9-0C500B17FA2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

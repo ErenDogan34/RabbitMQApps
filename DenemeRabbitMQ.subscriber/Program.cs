@@ -1,6 +1,7 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using Shared;
+//using Shared;
 using System;
 using System.Collections.Generic;
 using System.IO;
